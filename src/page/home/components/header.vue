@@ -10,7 +10,7 @@
             </a>
         </div>
         <div class = "localtion">
-            <router-link  class="local-link" to = "/city">
+            <router-link  class="local-link" to = "/city" >
                 <span class="localtion-title">{{stateCity}}</span>
                 <i class="localtion-icon iconfont">&#xe625;</i>
             </router-link>

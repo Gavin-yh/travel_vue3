@@ -23,7 +23,7 @@ export default {
     computed: {
        ...mapState ({
            viewName: state => state.viewName
-       }) 
+       })
     },
     watch:{
         //监听路由，当第二次切换进入detail时，将页面至于顶部（防止出来，新进来的页面，位置停在了上次浏览的位置）
